@@ -1,9 +1,9 @@
 /*
- * Author: Carlos Alvarez
- * URL: http://alvarez.is
+ * Author: Justin Scott
+ * 
  *
- * Theme Name: Basic
- * URL: http://blacktie.co
+ * Theme Name: Hangover
+ * URL: http://mesatechnology.us
  * Version: 1.0
  */
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 p { 
 	padding: 0; 
 	margin-bottom: 12px; 
-    font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	font-size: 18px; 
 	line-height: 28px;
@@ -164,8 +164,6 @@ input {
 	color: #2f2f2f;
 }
 
-
-
 .dmbutton:hover,
 .dmbutton:active,
 .dmbutton:focus{
@@ -258,11 +256,9 @@ input {
 	display:block;
 }
 
-
 .portfolio-item .title:before {border-radius:0; display:none}
 .portfolio-item p {margin:0px 0 30px;}
 .portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform:uppercase;}
-
 
 .tpl6 h3
 {
@@ -304,7 +300,7 @@ input {
 
 /* CONTACT SEPARATOR */
 #sep {
-	background: url(../img/05_H3_facebook.jpg) no-repeat center top;
+	background: url(../img/hangover-footer.jpg) no-repeat center top;
 	padding-top: 100px;
 	background-attachment: relative;
 	background-position: center center;
@@ -345,8 +341,8 @@ input {
 	color: white;
 }
 
-/* HEADER 2 - PORTFOLIO SECTION */
-#h2 {
+/* ZACH GALIFIANAKIS - PORTFOLIO SECTION */
+#zg {
 	background: url(../img/movie-images/02_H3_wallpaper_1920x1200.jpg) no-repeat center top;
 	padding-top: 5px;
 	background-attachment: relative;
@@ -366,19 +362,123 @@ input {
     color: white;
 }
 
-#h2 .logo {
+#zg .logo,
+#bc .logo,
+#eh .logo,
+#kj .logo,
+#jg .logo {
 	margin-top: 30px;
 	margin-left: 40px;
 	padding-bottom: 150px;
 }
 
-#h2 .logo h2{
+#zg .logo h2,
+#bc .logo h2,
+#eh .logo h2,
+#kj .logo h2,
+#jg .logo h2 {
 	font-weight: 900;
 	color: white;
 	letter-spacing: 1px;
 }
 
-#h2 h3 {
+#zg h3,
+#bc h3,
+#eh h3,
+#kj h3,
+#jg h3 {
 	margin-top: 30px;
 	letter-spacing: 1px;
+}
+
+/* BRADLEY COOPER - PORTFOLIO SECTION */
+#bc {
+	background: url(../img/movie-images/04_H3_wallpaper_1920x1200.jpg) no-repeat center top;
+	padding-top: 5px;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 700px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+
+/* ED HELMS - PORTFOLIO SECTION */
+#eh {
+	background: url(../img/movie-images/05_H3_wallpaper_1920x1200.jpg) no-repeat center top;
+	padding-top: 5px;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 700px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+
+/* KEN JEONG - PORTFOLIO SECTION */
+#kj {
+	background: url(../img/movie-images/03_H3_wallpaper_1920x1200.jpg) no-repeat center top;
+	padding-top: 5px;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 700px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+
+/* JOHN GOODMAN - PORTFOLIO SECTION */
+#jg {
+	background: url(../img/movie-images/06_H3_wallpaper_1920x1200.jpg) no-repeat center top;
+	padding-top: 5px;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 700px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+
+.dl-horizontal dt {
+	width: 100px;
+}
+
+.dl-horizontal dd {
+margin-left: 120px;
 }
